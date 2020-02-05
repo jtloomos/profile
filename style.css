@@ -1,0 +1,91 @@
+body{
+  background-color: #FDFFFC;
+  font-family: 'Arimo', sans-serif;
+  color: #151E3F;
+  text-align: center;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+  }
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.summary{
+  font-style: italic;
+}
+
+.card{
+}
+
+a{
+  color: #1782ED;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a:hover{
+  opacity: 1.0;
+}
+
+.fab{
+  font-size: 50px;
+}
+
+.face-image{
+  border-radius: 50%;
+
+  box-shadow: 3px 3px 5px grey;
+}
+
+.likes-image{
+  border-radius: 5%;
+  width: 300px;
+  height: 400px;
+  opacity: .8;
+  box-shadow: 3px 3px 5px grey;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .likes-image{
+  border-radius: 5%;
+  width: 250px;
+  height: 400px;
+  opacity: .8;
+  box-shadow: 3px 3px 5px grey;
+  }
+}
+
+.pic-description{
+  color: #011936;
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.likes{
+  display: inline-block;
+  padding: 20px;
+}
